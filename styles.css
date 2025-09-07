@@ -1,0 +1,141 @@
+*{
+    font-family: monospace;
+}
+body{
+    margin: 0;
+    font-size: 15px;
+    background-color: #f0f8ff;
+}
+header{
+    height: 100vh;
+    background-color: #2196F3;
+    color: white;
+   text-align: center;
+}
+h1{
+    color: #2196F3;
+    font-size: 4rem;
+    text-align: center;
+}
+header h1{
+   
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 260px;
+    margin: 0;
+    
+}
+.a{
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 270px;
+
+
+  
+   
+
+}
+.a:hover{
+    background-color: darkblue;
+    color: white;
+}
+img{
+    height: 350px;
+    position: relative;
+   left: 40%;
+   border-radius: 2%;
+   margin: 0;
+}
+p{
+    position: relative;
+    left: 5%;
+    font-size: 16px;
+    bottom: 0%;
+    padding: 1px;
+  
+
+
+}
+main h1{
+    position: relative;
+    left: 20;
+    margin: 2px;
+}
+ol{
+    position: relative;
+    left: 6%;
+    font-size: 2rem;
+    font-weight: 800;
+}
+form{
+    position: relative;
+    left: 6%;
+    font-size: 2rem;
+    font-weight: 100;
+}
+section{
+    height: 100vh;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: 2px;
+    margin-bottom: 20px;
+
+}
+main{
+
+    padding: 20px;
+}
+.submit{
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: #59abee;
+   
+
+}
+.submit:hover{
+   background-color: #1d8fec;
+   
+}
+input{
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 25px;
+   
+}
+.fix{
+    position:fixed;
+    bottom: 150px;
+    right: 10px;
+    background-color: blue;
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    
+    color: white;
+
+    
+}
+.fix:hover{
+cursor: pointer;
+background-color: darkblue;
+}
+
+footer{
+    top: 100px;
+    text-align: center;
+    height: 130px;
+    background-color: black;
+    padding: 35px;  
+    color: lightgray;
+    font-size: 20px;
+}
